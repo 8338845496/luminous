@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUMINOUS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="path/to/flaticon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="script.js" class="js">
+</head>
+<body>
+    <div class="container-fluid p-0">
+        <div class="header d-flex justify-content-between align-items-center flex-wrap ">
+            <div class="icon-text-group">
+                <div class="icon-text">
+                    <i class="bi bi-telephone-fill"></i> 
+                    <span>Call: +91-6742304010</span>
+                </div>
+                <div class="icon-text">
+                    <i class="bi bi-envelope-fill"></i> 
+                    <span>info@lipl.in</span>
+                </div>
+            </div>
+            <div class="icon-text contacts">
+                <i class="bi bi-person-fill"></i> 
+                <span>Contacts</span>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light mt-2 container sticky-top">
+            <a class="navbar-brand" href="#">
+                <img src="logo.png" alt="Website Icon">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold" href="#">Services</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle fw-semibold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Products
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">VAT Automation System (VATA)</a></li>
+                            <li><a class="dropdown-item" href="#">Integrated Cash Flow Accounting Software Application</a></li>
+                            <li><a class="dropdown-item" href="#">Panchayati Raj Project Management System (PPMS)</a></li>
+                            <li><a class="dropdown-item" href="#">Unified Scheme Monitoring System</a></li>
+                            <li><a class="dropdown-item" href="#">Project Monitoring System</a></li>
+                            <li><a class="dropdown-item" href="#">Make My Report</a></li>
+                            <li><a class="dropdown-item" href="#">e-File</a></li>
+                            <li><a class="dropdown-item" href="#">Assembly Q&A Management System</a></li>
+                            <li><a class="dropdown-item" href="#">Document Management System</a></li>
+                            <li><a class="dropdown-item" href="#">RTI CMM</a></li>
+                            <li><a class="dropdown-item" href="#">Prison Management Information System (PMIS)</a></li>
+                            <li><a class="dropdown-item" href="#">E-Blood Bank</a></li>
+                            <li><a class="dropdown-item" href="#">Court Case Management System</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold" href="#">Clientele</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold" href="#">Industries</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold" href="#">Corporates</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold" href="#">Technology</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold" href="#">Career</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+    </div>
+    <div class="mt-1">
+        <div class="scroll-container">
+            <button class="scroll-btn left" onclick="scrollLeft()">&#9664;</button>
+            <div class="scroll-content">
+                <img src="Home-Page-copy.jpg" alt="Image 1">
+                <img src="Home-Page-4M-copy.jpg" alt="Image 2">
+                <img src="Electronic-Solution.jpg" alt="Image 3">
+            </div>
+            <button class="scroll-btn right" onclick="scrollRight()">&#9654;</button>
+            <div class="hover-area left"></div>
+            <div class="hover-area right"></div>
+        </div>
+    </div>
+    
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Image on the left side -->
+            <div class="col-md-6">
+                <img src="about.png" class="img-fluid" alt="LIPL Image">
+            </div>
+            <!-- Text on the right side -->
+            <div class="col-md-6">
+                <h2>Know About LIPL</h2>
+                <p>Luminous Infoways, is a CMMi Level 3 Company, established in the year 2001, has been providing dedicated services to Customers across the globe. Some of our key customers include Govt. of India and various State Governments in India. Some of our key corporate customers include Steel Authority of India, NALCO, OPTCL, etc. Luminous Infoways is also providing dedicated service to prestigious African customers through various partners, including Parliament of Kenya & Uganda Prisons.</p>
+                <p>A National e-Governance Award winner, we are engaged in producing innovative IT products & solutions in the field of Document & File Management...</p>
+                <!-- View Details button with icon -->
+                <a href="#" class="btn btn-primary">
+                    <i class="fas fa-arrow-right"></i> View Details
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style="background-color:#f5f5f5">
+
+    
+    <div class="container mt-3">
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-3 mt-3">
+                <div class="card custom-card">
+                    <div class="card-body">
+                        <img src="iso.jpg" class="card-img" alt="Card image">
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Card 2 -->
+            <div class="col-md-3 mt-3 mb-3">
+                <div class="card custom-card">
+                    <div class="card-body">
+                        <img src="iso-3" class="card-img" alt="Card image">
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Card 3 -->
+            <div class="col-md-3 mt-3 mb-3">
+                <div class="card custom-card">
+                    <div class="card-body">
+                        <img src="iso-3" class="card-img" alt="Card image">
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Card 4 -->
+            <div class="col-md-3 mt-3 mb-3">
+                <div class="card custom-card">
+                    <div class="card-body">
+                        <img src="cmmi.webp" class="card-img" alt="Card image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container text-center my-5">
+    <h1 class="mb-4">Key Products</h1>
+    <p class="lead">
+        From business technology support to strategic consulting, we have <br> the IT solutions for your organizational needs.
+    </p>
+</div>
+<div class="container my-4">
+    <div class="row">
+        <!-- Card 1 -->
+        <div class="col-md-6 mb-3">
+            <div class="card card-custom" style="border: none;">
+                <img src="vat" class="card-img-left" alt="Card Image">
+                <div class="card-body">
+                    <h5 class="card-title">VAT Automation System (VATA)</h5>
+                    <p class="card-text">The open-source technology-based VAT Allied Taxes Excise application is an all-encompassing solution.</p>
+                    <a href="#" class="view-details"><i class="fas fa-arrow-right"></i>View Details</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Card 2 -->
+        <div class="col-md-6 mb-3">
+            <div class="card card-custom" style="border: none;">
+                <img src="vat" class="card-img-left" alt="Card Image">
+                <div class="card-body">
+                    <h5 class="card-title">VAT Automation System (VATA)</h5>
+                    <p class="card-text">The open-source technology-based VAT Allied Taxes Excise application is an all-encompassing solution.</p>
+                    <a href="#" class="view-details"><i class="fas fa-arrow-right"></i>View Details</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Card 3 -->
+        <div class="col-md-6 mb-3">
+            <div class="card card-custom" style="border: none;">
+                <img src="vat" class="card-img-left" alt="Card Image">
+                <div class="card-body">
+                    <h5 class="card-title">VAT Automation System (VATA)</h5>
+                    <p class="card-text">The open-source technology-based VAT Allied Taxes Excise application is an all-encompassing solution.</p>
+                    <a href="#" class="view-details"><i class="fas fa-arrow-right"></i>View Details</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Card 4 -->
+        <div class="col-md-6 mb-3">
+            <div class="card card-custom" style="border: none;">
+                <img src="vat" class="card-img-left" alt="Card Image">
+                <div class="card-body">
+                    <h5 class="card-title">VAT Automation System (VATA)</h5>
+                    <p class="card-text">The open-source technology-based VAT Allied Taxes Excise application is an all-encompassing solution.</p>
+                    <a href="#" class="view-details"><i class="fas fa-arrow-right"></i>View Details</a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+<div class="container text-center my-5">
+    <h1 class="mb-4">Services</h1>
+    <p class="lead">
+        From business technology support to strategic consulting, we have the IT solutions for your organizational needs. We offer software and mobile application development, cloud services, manpower services, e-governance services and others.
+    </p>
+</div>
+<div class="container mt-3">
+    <div class="row">
+      <!-- Card 1 -->
+      <div class="col-12 col-md-6 col-lg-3 mb-3">
+        <div class="card text-center" style="width: 100%;">
+          <img src="pngwing.com-3-137x110.png" class="card-img-top" alt="Card image">
+          <div class="card-body">
+            <h5 class="card-title" style="color: #007bff;">Data Analytics Services</h5>
+            <p class="card-text">We offer comprehensive data analytics services to help businesses harness the power of their data.</p>
+            <a href="#" class="btn" style="color: #007bff;">
+              <i class="fas fa-arrow-right"></i> Learn More
+            </a>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Card 2 -->
+      <div class="col-12 col-md-6 col-lg-3 mb-3">
+        <div class="card text-center" style="width: 100%;">
+          <img src="pngwing.com-3-137x110.png" class="card-img-top" alt="Card image">
+          <div class="card-body">
+            <h5 class="card-title" style="color: #007bff;">Data Analytics Services</h5>
+            <p class="card-text">We offer comprehensive data analytics services to help businesses harness the power of their data.</p>
+            <a href="#" class="btn" style="color: #007bff;">
+              <i class="fas fa-arrow-right"></i> Learn More
+            </a>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Card 3 -->
+      <div class="col-12 col-md-6 col-lg-3 mb-3">
+        <div class="card text-center" style="width: 100%;">
+          <img src="pngwing.com-3-137x110.png" class="card-img-top" alt="Card image">
+          <div class="card-body">
+            <h5 class="card-title" style="color: #007bff;">Data Analytics Services</h5>
+            <p class="card-text">We offer comprehensive data analytics services to help businesses harness the power of their data.</p>
+            <a href="#" class="btn" style="color: #007bff;">
+              <i class="fas fa-arrow-right"></i> Learn More
+            </a>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Card 4 -->
+      <div class="col-12 col-md-6 col-lg-3 mb-3">
+        <div class="card text-center" style="width: 100%;">
+          <img src="pngwing.com-3-137x110.png" class="card-img-top" alt="Card image">
+          <div class="card-body">
+            <h5 class="card-title" style="color: #007bff;">Data Analytics Services</h5>
+            <p class="card-text">We offer comprehensive data analytics services to help businesses harness the power of their data.</p>
+            <a href="#" class="btn" style="color: #007bff;">
+              <i class="fas fa-arrow-right"></i> Learn More
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="fact-counter mt-3">
+    <!-- Column -->
+    <div class="column">
+        <div class="inner">
+            <div class="count-outer">
+                <span class="count-text" data-speed="2500" data-stop="23">23</span>+
+            </div>
+            <h4 class="counter-title">Years of Experience</h4>
+        </div>
+    </div>
+
+    <!-- Column -->
+    <div class="column">
+        <div class="inner">
+            <div class="count-outer">
+                <span class="count-text" data-speed="2000" data-stop="500">500</span>+
+            </div>
+            <h4 class="counter-title">Happy Clients</h4>
+        </div>
+    </div>
+
+    <!-- Column -->
+    <div class="column">
+        <div class="inner">
+            <div class="count-outer">
+                <span class="count-text" data-speed="4000" data-stop="300">300</span>+
+            </div>
+            <h4 class="counter-title">Projects Completed</h4>
+        </div>
+    </div>
+</div>
+<section class="about-section mt-5">
+    <div class="container">
+        <div class="row">
+            <!-- Image Column -->
+            <div class="col-lg-6 col-md-12 mb-4 mb-lg-0">
+                <div class="image">
+                    <img src="why-lipl-1-430x430.webp" alt="Why Luminous Infoways">
+                </div>
+            </div>
+            <!-- Content Column -->
+            <div class="col-lg-6 col-md-12">
+                <div class="content">
+                    <div class="sec-title">
+                        <div class="title">WHY CHOOSE</div>
+                        <h2>Luminous Infoways</h2>
+                        <p>We are your one-stop destination. We understand how overwhelming it can be for a client to handle everything on their own. That’s why we make sure not to burden our clients with extra costs and efforts. We will look after all our client’s requirements from ground zero to the last step with an end-to-end delivery mechanism.</p>
+                    </div>
+                    <ul class="about-list">
+                        <li>
+                            <strong>23 Years of Domain &amp; Technology Experience</strong>
+                            Over the last two decades, Luminous Infoways has touched new heights with innovation.
+                        </li>
+                        <li>
+                            <strong>Readily Available Products &amp; Solutions</strong>
+                            We have set a benchmark in e-governance services with proven products and solutions.
+                        </li>
+                        <li>
+                            <strong>High Volumes of Market Credentials</strong>
+                            Our team specializes in e-governance projects and solutions, powered by the passion of today.
+                        </li>
+                        <li>
+                            <strong>Reasonable Costing</strong>
+                            We offer cost-effective services using a mix of onshore and offshore models.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="pt-5 pb-5">
+    <div class="container">
+        <h2 class="text-center">What Others Say About Us</h2>
+        <hr id="midline">
+        <h5 class="text-center mb-5">Our team created the best opportunities for your business.</h5>
+        <div id="testimonialCard" class="carousel slide" data-ride="carousel" data-interval="3000">
+            <div class="carousel-inner">
+                <!-- First Slide -->
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div id="carouselCaption" class="d-flex align-items-center">
+                                <img src="Santosh-226x230.webp" alt="Micheal Smith" class="testimonial-img rounded-circle">
+                                <div>
+                                    <h2>Micheal Smith - <span>Web Developer</span></h2>
+                                    <p>Well incremented. Comes with recommended workout. I'm using it to help with bladder leakage issues that I've been experiencing since a recent vasectomy.</p>
+                                    <small class="text-muted">- willi</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div id="carouselCaption" class="d-flex align-items-center">
+                                <img src="SD-Sharma-76x90.webp" alt="Helena Doe" class="testimonial-img rounded-circle">
+                                <div>
+                                    <h2>Helena Doe - <span>Architect</span></h2>
+                                    <p>Well incremented. Comes with recommended workout. I'm using it to help with bladder leakage issues that I've been experiencing since a recent vasectomy.</p>
+                                    <small class="text-muted">- willi</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Second Slide -->
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div id="carouselCaption" class="d-flex align-items-center">
+                                <img src="SD-Sharma-76x90.webp" alt="John Doe" class="testimonial-img rounded-circle">
+                                <div>
+                                    <h2>John Doe - <span>CEO, Mobile Company</span></h2>
+                                    <p>Well incremented. Comes with recommended workout. I'm using it to help with bladder leakage issues that I've been experiencing since a recent vasectomy.</p>
+                                    <small class="text-muted">- willi</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div id="carouselCaption" class="d-flex align-items-center">
+                                <img src="SD-Sharma-76x90.webp" alt="Helena Doe" class="testimonial-img rounded-circle">
+                                <div>
+                                    <h2>Helena Doe - <span>Architect</span></h2>
+                                    <p>Well incremented. Comes with recommended workout. I'm using it to help with bladder leakage issues that I've been experiencing since a recent vasectomy.</p>
+                                    <small class="text-muted">- willi</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Controls -->
+            <a id="carouselControlPrev" class="carousel-control-prev" href="#testimonialCard" role="button" data-slide="prev">
+                <span id="carouselControlPrevIcon" class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a id="carouselControlNext" class="carousel-control-next" href="#testimonialCard" role="button" data-slide="next">
+                <span id="carouselControlNextIcon" class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+
+<section class="news-section">
+    <div class="auto-container">
+        <div class="sec-title centered">
+            <div class="title">LATEST FROM</div>
+            <h2>Our Blog Post</h2>
+            <div class="text">Decoding technologies. As the use of technology continues to increase, it is critical to have a general understanding of its main concepts and applications. Here are the latest blogs from our team members. </div>
+        </div>
+                        <div class="row clearfix">
+                                    <!-- News Block -->
+                <div class="news-block col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box wow fadeInLeft animated" data-wow-delay="0ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInLeft;">
+                                                        <div class="image">
+                            <img width="370" height="270" data-src="https://luminousinfoways.com/wp-content/uploads/2022/09/ctms-1-370x270.jpg" alt="Cultural Troupe Management System (CTMS) Web Application" src="first.webp" class=" ls-is-cached lazyloaded" style="--smush-placeholder-width: 370px; --smush-placeholder-aspect-ratio: 370/270;" data-rocket-lazy-bg-437420cd-0dcb-4553-ae48-08d6a20c0e65="loaded"><noscript><img width="370" height="270" src="https://luminousinfoways.com/wp-content/uploads/2022/09/ctms-1-370x270.jpg" alt="Cultural Troupe Management System (CTMS) Web Application" /></noscript>
+                            <!-- Overlay Box -->
+                            <div class="overlay-box">
+                                <div class="overlay-inner">
+                                    <div class="content">
+                                        <a href="https://luminousinfoways.com/blog/cultural-troupe-management-system-ctms-web-application/" class="icon flaticon-unlink"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                                    <div class="lower-content">
+                            <!-- <ul class="post-meta">
+                                <li><span class="icon fa fa-user"></span>January 20 2021</li>
+                                <li><span class="icon fa fa-comment"></span>admin</li>
+                            </ul> -->
+                            <h5 class="mt-0"><a href="https://luminousinfoways.com/blog/cultural-troupe-management-system-ctms-web-application/">Cultural Troupe Management System (CTMS) Web Application</a></h5>
+                        </div>
+                    </div>
+                </div>
+                                    <!-- News Block -->
+                <div class="news-block col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box wow fadeInLeft animated" data-wow-delay="0ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInLeft;">
+                                                        <div class="image">
+                            <img width="370" height="270" data-src="https://luminousinfoways.com/wp-content/uploads/2022/09/FrameWorkPMIS-370x270.png" alt="Get your projects on track, use PMIS today" src="second.png" class=" ls-is-cached lazyloaded" style="--smush-placeholder-width: 370px; --smush-placeholder-aspect-ratio: 370/270;" data-rocket-lazy-bg-437420cd-0dcb-4553-ae48-08d6a20c0e65="loaded"><noscript><img width="370" height="270" src="https://luminousinfoways.com/wp-content/uploads/2022/09/FrameWorkPMIS-370x270.png" alt="Get your projects on track, use PMIS today" /></noscript>
+                            <!-- Overlay Box -->
+                            <div class="overlay-box">
+                                <div class="overlay-inner">
+                                    <div class="content">
+                                        <a href="https://luminousinfoways.com/blog/get-your-projects-on-track-use-pmis-today/" class="icon flaticon-unlink"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                                    <div class="lower-content">
+                            <!-- <ul class="post-meta">
+                                <li><span class="icon fa fa-user"></span>January 20 2021</li>
+                                <li><span class="icon fa fa-comment"></span>admin</li>
+                            </ul> -->
+                            <h5 class="mt-0"><a href="https://luminousinfoways.com/blog/get-your-projects-on-track-use-pmis-today/">Get your projects on track, use PMIS today</a></h5>
+                        </div>
+                    </div>
+                </div>
+                                    <!-- News Block -->
+                <div class="news-block col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box wow fadeInLeft animated" data-wow-delay="0ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInLeft;">
+                                                        <div class="image">
+                            <img width="370" height="270" data-src="https://luminousinfoways.com/wp-content/uploads/2022/09/RTI-370x270.jpg" alt="RTI CMM empowers citizens, brings transparency in governance" src="third.webp" class=" ls-is-cached lazyloaded" style="--smush-placeholder-width: 370px; --smush-placeholder-aspect-ratio: 370/270;" data-rocket-lazy-bg-437420cd-0dcb-4553-ae48-08d6a20c0e65="loaded"><noscript><img width="370" height="270" src="https://luminousinfoways.com/wp-content/uploads/2022/09/RTI-370x270.jpg" alt="RTI CMM empowers citizens, brings transparency in governance" /></noscript>
+                            <!-- Overlay Box -->
+                            <div class="overlay-box">
+                                <div class="overlay-inner">
+                                    <div class="content">
+                                        <a href="https://luminousinfoways.com/blog/rti-cmm-empowers-citizens-brings-transparency-in-governance/" class="icon flaticon-unlink"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                                    <div class="lower-content">
+                            <!-- <ul class="post-meta">
+                                <li><span class="icon fa fa-user"></span>January 20 2021</li>
+                                <li><span class="icon fa fa-comment"></span>admin</li>
+                            </ul> -->
+                            <h5 class="mt-0"><a href="https://luminousinfoways.com/blog/rti-cmm-empowers-citizens-brings-transparency-in-governance/">RTI CMM empowers citizens, brings transparency in governance</a></h5>
+                        </div>
+                    </div>
+                </div>
+                            </div>
+        <div class="text-center">
+            <a class="learn-more" href="https://luminousinfoways.com/about-us/blog/"><span class="icon flaticon-next-2"></span>View All</a>
+        </div>
+                </div>
+</section>
+
+<footer id="main-footer" class="main-footer bg-light text-dark">
+    <div id="pattern-layer" class="d-none d-md-block" style="background-image: url('https://luminousinfoways.com/wp-content/themes/lipl/assets/images/background/map-pattern.png');"></div>
+    <div class="container">
+        <!-- Widgets Section -->
+        <div id="widgets-section" class="row">
+            <!-- Column -->
+            <div class="col-lg-8 col-md-12 mb-4">
+                <div id="footer-widget-logo-widget" class="footer-widget">
+                    <div id="logo" class="mb-3">
+                        <a href="https://luminousinfoways.com/" title="Luminous Infoways">
+                            <img src="logo.png" alt="Luminous Infoways" class="img-fluid">
+                        </a>
+                    </div>
+                    <div id="text" class="text-muted">
+                        Founded in the year of 2001, Luminous Infoways is an ISO 9001:2008 & ISO 27001:2013 certified company which has become a trusted software service provider for the clients worldwide by providing proven integrated business consulting software solutions starting from ideation to execution which helps to simplify, strengthen & transform their business.
+                    </div>
+                    <!-- Social Box -->
+                    <ul id="social-box" class="list-unstyled d-flex">
+                        <li class="mr-2"><a href="https://www.youtube.com/channel/UCJ5IiPJaj-Peavw7Lyi2Vow" class="fab fa-youtube" title="Youtube"></a></li>
+                        <li class="mr-2"><a href="https://www.linkedin.com/company/luminous-infoways-world/mycompany/" class="fab fa-linkedin" title="Linkedin"></a></li>
+                        <li class="mr-2"><a href="https://twitter.com/liplinfo" class="fab fa-twitter" title="Twitter"></a></li>
+                        <li class="mr-2"><a href="https://www.facebook.com/luminousinfowayspl" class="fab fa-facebook-f" title="Facebook"></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Footer Column -->
+            <div class="col-lg-4 col-md-12 mb-4">
+                <div id="footer-column-contact-info" class="footer-widget">
+                    <h4>Get in Touch</h4>
+                    <ul id="footer-info-list" class="list-unstyled">
+                        <li><span class="icon flaticon-send-1"></span> DCB 615/616/617, 6th Floor, DLF Cyber City, Bhubaneswar-751024, Odisha, India.</li>
+                        <li><span class="icon flaticon-email-2"></span><a href="mailto:info@lipl.in">info@lipl.in</a></li>
+                        <li><span class="icon flaticon-telephone-1"></span><a href="tel:+916742304010">+91-6742304010</a></li>
+                        <li><span class="icon flaticon-clock-1"></span> Opening Hours: 9:30 - 7:00</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Bottom -->
+    <div id="footer-bottom" class="bg-dark text-light py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-left">
+                    <div id="copyright">© 2024 Luminous Infoways. All Rights Reserved.</div>
+                </div>
+                <div class="col-md-6 text-center text-md-right">
+                    <ul id="footer-nav" class="list-unstyled d-flex justify-content-center justify-content-md-end mb-0">
+                        <li class="mr-3"><a href="https://luminousinfoways.com/privacy_policy/" class="text-light">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+  
+    <script>
+        let currentIndex = 0;
+        const images = document.querySelectorAll('.scroll-content img');
+        const totalImages = images.length;
+    
+        function scrollLeft() {
+            currentIndex = (currentIndex - 1 + totalImages) % totalImages;
+            updateScroll();
+        }
+    
+        function scrollRight() {
+            currentIndex = (currentIndex + 1) % totalImages;
+            updateScroll();
+        }
+    
+        function updateScroll() {
+            const scrollContent = document.querySelector('.scroll-content');
+            scrollContent.style.transform = `translateX(-${currentIndex * 100}%)`;
+        }
+    
+        function autoScroll() {
+            scrollRight();
+        }
+        setInterval(autoScroll, 3000);
+    
+        updateScroll();
+    </script>
+    
+    <!-- Bootstrap JS (Bootstrap 5) -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
